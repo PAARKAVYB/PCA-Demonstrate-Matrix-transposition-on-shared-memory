@@ -1,17 +1,17 @@
-# PCA Demonstrate Matrix transposition on shared memory
+# Demonstrate Matrix transposition on shared memory
 ## AIM:
 To demonstrate the Matrix transposition on shared memory with grid (1,1) block (16,16).
 ## PROCEDURE:
 ### STEP 1:
 Include the required files and library.
 ### STEP 2:
-Define the block size to be 16 .
+Define the block size to be 16.
 ### STEP 3:
-Intoduce a void function to print the data.
+Introduce a void function to print the data.
 ### STEP 4:
-Introduce global functions to set and read the row & column. In the function , decalre a shared memory , map thr thread index to global memory index , perform store operation and wait for all threads to complete and them perform load operation.
+Introduce global functions to set and read the row & column. In the function, declare a shared memory, map the thread index to global memory index, perform store operation and wait for all threads to complete and them perform load operation.
 ### STEP 5:
-Inroduce the main function, in the main method set up the device ,array size and declare the execution configuration. Allocate the device memory and finally free the host and device memory followed by reseting the device.
+Introduce the main function, in the main method set up the device,array size and declare the execution configuration. Allocate the device memory and finally free the host and device memory followed by resetting the device.
 ### STEP 6:
 Save and execute the program.
 
